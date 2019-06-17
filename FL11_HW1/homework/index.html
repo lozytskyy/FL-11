@@ -12,20 +12,19 @@
     <div id="main">
       <div id="container">
         <div id="content" role="main">
-		<!-- TODO: Content goes here -->
 			<a href="https://www.epam.com/" target="_blank">
 				<img src="logo.png" alt="epam logo" />
 			</a>
-				<h1>HTML Elements</h1>
+			<h1>HTML Elements</h1>
 			<hr/>
 			<div class="menu">
 				<nav>
-						<a href="#"><b>Home</b></a>
-						<a href="#hdr"><b>Headers</b></a>
-						<a href="#txt"><b>Text</b></a>
-						<a href="#lst"><b>List</b></a>
-						<a href="#tbl"><b>Table</b></a>
-						<a href="#blq"><b>Blockquotes</b></a>
+					<a href="#"><b>Home</b></a>
+					<a href="#hdr"><b>Headers</b></a>
+					<a href="#txt"><b>Text</b></a>
+					<a href="#lst"><b>List</b></a>
+					<a href="#tbl"><b>Table</b></a>
+					<a href="#blq"><b>Blockquotes</b></a>
 				</nav>
 			</div>
 			<hr/>
@@ -82,12 +81,12 @@
 			</section>	
 			<section>
 				<h2>Preformatted Text</h2>
-					<pre><strong>Text</strong>
+				<pre><strong>Text</strong>
   in a <strong>pre</strong> element
     is displayed in a fixed-width
 font, and it preserves
 both           spaces and
-    line breaks		</pre>
+    line breaks	</pre>
 			</section>
 			<section id="code">
 				<h2>This is code</h2>
@@ -193,23 +192,23 @@ both           spaces and
 			<hr/>
 			<form name="epam_lozytskyy" method="post" action="input1.php">
 				<fieldset>
-					First name: 
-					<input type="text" size="40" />
+					<label for="fname">First name:</label>
+					<input type="text" id="fname" size="40" />
 				</fieldset>
 				<fieldset>
-					Second name: 
-					<input type="text" size="40" />
+					<label for="sname">Second name:</label>
+					<input type="text" id="sname" size="40" />
 				</fieldset>
 				<fieldset>
-					Email: 
-					<input type="text" size="40" />
+					<label for="emailaddress">Email:</label>
+					<input type="email" id="emailaddress" size="40" />
 				</fieldset>
 				<fieldset>
-					Password: 
-					<input type="text" size="40" />
+					<label for="psw">Password:</label>
+					<input type="password" id="psw" size="40" />
 				</fieldset>
 				<fieldset>
-					<textarea rows="5" cols="29" name="text"></textarea>
+					<textarea cols="29" rows="5" name="textar"></textarea>
 				</fieldset>
 				<fieldset>
 					<button type="submit">Submit</button>
