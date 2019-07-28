@@ -1,0 +1,43 @@
+body, .addTaskName, #todo, #root, #modifyItem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.btn, .inpt {
+	font-size: 12pt;
+	border-radius: 5px;
+}
+
+#Save {
+	margin-left: 25px;
+}
+
+.itemsList {
+	width: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.itemsList p {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+	width: 60%;
+}
+
+.itemsList img {
+	height: 25px;
+}
+
+input[type=checkbox] {
+    zoom: 1.5;
+}
+
+input:checked + p {
+    background: grey;
+}
